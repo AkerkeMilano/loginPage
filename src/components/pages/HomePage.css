@@ -1,0 +1,36 @@
+.blockLT {
+    background-color: #66837e;
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.blockRT {
+    background-color: #9d4e2d;
+    grid-column: 2 / span 2;
+    grid-row: 1;
+}
+
+.blockMM {
+    background-color: #495f4b;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.blockLB {
+    background-color: #9dabb6;
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.blockRB {
+    background-color: #dd9857;
+    grid-column: 3;
+    grid-row: 2 / span 2;
+}
+
+.homePage {
+    height: 87vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+   }

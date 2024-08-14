@@ -1,0 +1,17 @@
+.btn {
+    padding: 5px 15px;
+    background-color: #66837e;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #66837e;
+    cursor: pointer;
+}
+
+.negative {
+    background-color: white;
+    color: #66837e;
+    border: 1px solid #66837e;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
